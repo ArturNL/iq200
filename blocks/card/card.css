@@ -1,0 +1,52 @@
+.card {
+    background-image: url(../../images/meeting.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card__items {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row: 20px;
+    grid-column: 15px;
+}
+
+.card__item {
+    max-width: 390px;
+    margin: 30px auto;
+    background-color: #ffffff;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__title {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.card__text {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.card__button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid blue;
+}

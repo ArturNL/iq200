@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header__menu-links {
+    display: flex;
+    flex-direction: row;
+    max-width: 320px;
+    list-style-type: none;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: -25px;
+}
+
+.header__links {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.header__links:last-of-type {
+    margin-right: 0;
+}
+
+.header__icon {
+    width: 30px;
+    height: 30px;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    margin: 0;
+    margin-top: 13px;
+}
+
+.header__image {
+    width: 23px;
+    height: 23px;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__number {
+    margin: 0;
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    color: blue;
+}
+
+.header__email {
+    margin: 0;
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    color: blue;
+}
