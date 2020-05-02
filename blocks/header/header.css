@@ -57,6 +57,10 @@
     text-decoration: none;
 }
 
+.header__number:hover {
+    opacity: 0.7;
+}
+
 .header__email {
     margin: 0;
     margin-top: 5px;
@@ -66,4 +70,8 @@
     line-height: 15px;
     color: blue;
     text-decoration: none;
+}
+
+.header__email:hover{
+    opacity: 0.7;
 }
